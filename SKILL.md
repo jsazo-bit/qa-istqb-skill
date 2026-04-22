@@ -1,3 +1,8 @@
+---
+name: qa-istqb-skill
+description: Expert QA skills for efficient test case design and Playwright automation
+---
+
 # QA ISTQB Skill
 
 Expert QA skills for efficient test case design and Playwright automation.

@@ -1,3 +1,8 @@
+---
+name: playwright-automation
+description: Transform test cases into clean, efficient Playwright automation code with best practices
+---
+
 # Playwright Test Automation – Efficient & Precise
 
 ## Purpose

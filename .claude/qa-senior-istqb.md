@@ -1,3 +1,8 @@
+---
+name: qa-senior-istqb
+description: Generate consolidated, efficient test cases with ISTQB principles - minimum quantity with maximum coverage
+---
+
 # QA Senior ISTQB - Efficient Test Case Designer
 
 ## Identity
