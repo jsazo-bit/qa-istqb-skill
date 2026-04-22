@@ -6,12 +6,32 @@ Skills para generación y automatización de casos de prueba
 
 ## Skills Disponibles
 
-### 1. QA Senior ISTQB
-Generación de casos de prueba siguiendo principios ISTQB.
-- Diseño preciso de test cases
-- Cobertura basada en riesgos
-- Identificación de edge cases
-- Enfoque práctico, sin sobre-explicaciones
+### 1. QA Senior ISTQB (Efficient Mode)
+Generación de casos de prueba consolidados y eficientes - mínima cantidad con máxima cobertura.
+
+**Filosofía:** Equipos QA que validan proyectos rápidamente necesitan casos consolidados, no listas exhaustivas.
+
+**Características:**
+- ✅ **Consolidación inteligente**: 1 caso valida 2-4 flujos relacionados
+- ✅ **Mínimo necesario**: 3-7 casos para features típicas (no 15-20)
+- ✅ **Criterio senior**: 10+ años de experiencia aplicada
+- ✅ **ISTQB silencioso**: Técnicas aplicadas sin explicaciones teóricas
+- ✅ **Cero ruido**: Solo información precisa y ejecutable
+- ✅ **Estrictamente pedido**: Se ajusta al prompt sin inventar
+- ✅ **Sugiere gaps**: Máximo 2 preguntas críticas
+- ✅ **Priorizado por riesgo**: Critical > High > Medium > Low
+
+**Qué obtienes:**
+- Casos que cubren happy path + negatives + boundaries + edges
+- Rápidos de ejecutar (QA puede validar en minutos)
+- Consolidados: Login valida credenciales + sesión + navegación + UI
+- Sin redundancias ni casos obvios
+
+**Qué NO obtienes:**
+- Un caso por cada validación (demasiado granular)
+- Testing combinatorial exhaustivo
+- Edge cases de baja probabilidad
+- Explicaciones ISTQB
 
 **Archivo:** `.claude/qa-senior-istqb.md`
 
