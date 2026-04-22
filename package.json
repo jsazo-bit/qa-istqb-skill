@@ -1,0 +1,29 @@
+{
+  "name": "qa-istqb-skill",
+  "version": "1.0.0",
+  "description": "Skills para generación y automatización de casos de prueba con ISTQB y Playwright",
+  "main": "SKILL.md",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "istqb",
+    "playwright",
+    "test-cases",
+    "automation",
+    "agent-skill",
+    "copilot-skill"
+  ],
+  "author": "jsazo-bit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsazo-bit/qa-istqb-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsazo-bit/qa-istqb-skill/issues"
+  },
+  "homepage": "https://github.com/jsazo-bit/qa-istqb-skill#readme"
+}

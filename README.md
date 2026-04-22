@@ -79,6 +79,16 @@ Automatiza estos casos de prueba: [tus casos]
 
 ## Instalación Rápida
 
+### Opción 1: Con npx skills CLI (Recomendado)
+
+```bash
+npx skills add https://github.com/jsazo-bit/qa-istqb-skill
+```
+
+Esto instalará ambas skills automáticamente en tu directorio de agentes.
+
+### Opción 2: Instalación Manual
+
 ```bash
 git clone https://github.com/jsazo-bit/qa-istqb-skill.git
 cd qa-istqb-skill

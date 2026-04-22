@@ -16,7 +16,45 @@ Antes de comenzar, asegúrate de tener instalado:
 
 ## Instalación Paso a Paso
 
-### 1. Clonar el Repositorio
+### Método 1: Usando npx skills CLI (Más Rápido) ⚡
+
+Este es el método recomendado para instalar las skills de forma automática.
+
+**Paso 1:** Abrir terminal y ejecutar:
+
+```bash
+npx skills add https://github.com/jsazo-bit/qa-istqb-skill
+```
+
+**Paso 2:** Las skills se instalan automáticamente en tu directorio de agentes.
+
+**Paso 3:** Verificar instalación:
+
+```bash
+# En Windows PowerShell
+ls ~/.agents/skills/qa-istqb-skill
+
+# En Mac/Linux
+ls ~/.agents/skills/qa-istqb-skill
+```
+
+**Paso 4:** Usar las skills en VSCode:
+
+```
+@qa-senior-istqb.md
+
+Genera casos de prueba para login
+```
+
+**Listo!** Las skills están disponibles globalmente en todos tus proyectos.
+
+---
+
+### Método 2: Clonación Manual (Más Control)
+
+Si prefieres tener el repositorio local para modificarlo o trabajar en modo desarrollo:
+
+**Paso 1: Clonar el Repositorio**
 
 Abre una terminal (PowerShell, CMD, o Terminal de VSCode) y ejecuta:
 
