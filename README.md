@@ -2,7 +2,7 @@
 
 Skills para generación y automatización de casos de prueba
 
-📖 **[Guía de Uso Completa](USAGE.md)** | 🚀 **[Quick Start](QUICKSTART.md)**
+🎓 **[Nuevo en el Equipo?](TEAM-ONBOARDING.md)** | ⚡ **[Instalación](INSTALLATION.md)** | 📖 **[Guía de Uso](USAGE.md)** | 🚀 **[Quick Start](QUICKSTART.md)**
 
 ## Skills Disponibles
 
@@ -57,13 +57,23 @@ Automatiza estos casos de prueba: [tus casos]
 - **[QUICKSTART.md](QUICKSTART.md)**: Inicio rápido en 3 pasos
 - **[example-workflow.md](scripts/example-workflow.md)**: Ejemplo paso a paso
 
-## Instalación
+## Instalación Rápida
 
 ```bash
 git clone https://github.com/jsazo-bit/qa-istqb-skill.git
 cd qa-istqb-skill
+code .
 ```
 
-Ya puedes usar las skills referenciando los archivos `.md` en tu editor o chat de IA.
+📋 **[Guía de Instalación Completa](INSTALLATION.md)** - Paso a paso con troubleshooting y configuración
+
+### Verificar Instalación
+
+Abre el chat de Copilot (`Ctrl + I`) y escribe:
+```
+@.claude/qa-senior-istqb.md
+
+Genera casos de prueba para login básico
+```
 ### Automatizar con Playwright
 Usa la skill **Playwright Automation** y el prompt `generate-playwright-tests.md`
