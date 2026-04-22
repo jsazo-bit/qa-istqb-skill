@@ -2,6 +2,8 @@
 
 Skills para generación y automatización de casos de prueba
 
+📖 **[Guía de Uso Completa](USAGE.md)** | 🚀 **[Quick Start](QUICKSTART.md)**
+
 ## Skills Disponibles
 
 ### 1. QA Senior ISTQB
@@ -31,12 +33,37 @@ Transformación de casos de prueba manuales en código automatizado Playwright.
   - `generate-test-cases.md` - Generación de casos ISTQB
   - `generate-playwright-tests.md` - Generación de código Playwright
 - `scripts/` - Scripts de utilidades
-- `.vscode/` - Configuración del workspace
+- `Cómo Usar las Skills
 
-## Uso
+### Método Rápido
+En tu chat con Claude, referencia la skill que necesitas:
 
-### Generar Casos de Prueba (Manual)
-Usa la skill **QA Senior ISTQB** y el prompt `generate-test-cases.md`
+```
+@.claude/qa-senior-istqb.md
 
+Genera casos de prueba para [tu funcionalidad]
+```
+
+o
+
+```
+@.claude/playwright-automation.md
+
+Automatiza estos casos de prueba: [tus casos]
+```
+
+### Guías Detalladas
+- **[USAGE.md](USAGE.md)**: Guía completa con ejemplos y mejores prácticas
+- **[QUICKSTART.md](QUICKSTART.md)**: Inicio rápido en 3 pasos
+- **[example-workflow.md](scripts/example-workflow.md)**: Ejemplo paso a paso
+
+## Instalación
+
+```bash
+git clone https://github.com/jsazo-bit/qa-istqb-skill.git
+cd qa-istqb-skill
+```
+
+Ya puedes usar las skills referenciando los archivos `.md` en tu editor o chat de IA.
 ### Automatizar con Playwright
 Usa la skill **Playwright Automation** y el prompt `generate-playwright-tests.md`
